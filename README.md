@@ -1,5 +1,9 @@
 # 🧠 RAG-Food: Serverless Retrieval-Augmented Generation
 
+**Author:** [Aniraj1]  
+**Date:** December 2025  
+**Course:** AI Builder Internship - Week 2
+
 This is a **fully serverless RAG (Retrieval-Augmented Generation)** demo using:
 
 - ✅ [Upstash Vector](https://upstash.com/vector) for embeddings & semantic search (cloud-hosted)
@@ -9,6 +13,36 @@ This is a **fully serverless RAG (Retrieval-Augmented Generation)** demo using:
 - ✅ A food dataset with 75 items (Indian, Asian, global cuisines)
 
 **No local servers required!** Everything runs in the cloud.
+
+---
+
+## 🆕 Enhanced Food Items (15 Detailed Entries)
+
+The following 15 food items have been enhanced with comprehensive descriptions (50+ words each), nutritional information, dietary classifications, and preparation methods:
+
+| # | Food Item | Region | Type | Dietary Info |
+|---|-----------|--------|------|--------------|
+| 1 | **Banana** | Tropical | Fruit | Vegan, Gluten-Free |
+| 2 | **Lemon** | Mediterranean | Fruit | Vegan, Keto-Friendly |
+| 3 | **Chili Pepper** | Mexico, Asia | Spice | Vegan, Keto-Friendly |
+| 4 | **Apple** | Global | Fruit | Vegan, Gluten-Free |
+| 5 | **Biryani** | Hyderabad, India | Main Course | Gluten-Free |
+| 6 | **Samosa** | North India | Snack | Vegetarian |
+| 7 | **Paneer Butter Masala** | Punjab | Main Course | Vegetarian, High Protein |
+| 8 | **Masala Dosa** | South India | Breakfast | Vegan, Probiotic |
+| 9 | **Chole (Chana Masala)** | Punjab | Main Course | Vegan, High Protein |
+| 10 | **Rasgulla** | Bengal | Dessert | Vegetarian |
+| 11 | **Naan** | North India | Bread | Vegetarian |
+| 12 | **Tandoori Chicken** | Punjab | Main Course | Keto-Friendly, High Protein |
+| 13 | **Gulab Jamun** | India | Dessert | Vegetarian |
+| 14 | **Pav Bhaji** | Mumbai | Snack | Vegetarian |
+| 15 | **Raita** | India | Condiment | Probiotic, Gluten-Free |
+
+Each enhanced entry includes:
+- 📝 Detailed description (50+ words)
+- 🥗 Nutritional highlights
+- 🍽️ Preparation methods
+- 🏷️ Dietary classifications
 
 ---
 
@@ -201,6 +235,83 @@ main course dish.
 * Expand dataset with more cuisines
 * Add metadata filtering (by region, type)
 * Implement conversation history
+
+---
+
+## 🧪 Sample Test Queries & Expected Responses
+
+Here are 10 diverse queries to test the RAG system:
+
+### 1. Specific Dish Inquiry
+**Query:** "What is biryani and how is it prepared?"  
+**Expected:** Details about layered rice dish, dum cooking, regional variations
+
+### 2. Nutritional Question
+**Query:** "Which foods are high in protein?"  
+**Expected:** Chole, Paneer Butter Masala, Tandoori Chicken, lentil-based dishes
+
+### 3. Cultural Cuisine Query
+**Query:** "Tell me about South Indian breakfast foods"  
+**Expected:** Masala Dosa with fermented batter, served with chutney and sambar
+
+### 4. Dietary Restriction Search
+**Query:** "What vegan options are available?"  
+**Expected:** Masala Dosa, Chole, fruits, vegetables
+
+### 5. Cooking Method Question
+**Query:** "What foods are cooked in a tandoor?"  
+**Expected:** Naan, Tandoori Chicken
+
+### 6. Health Benefits Query
+**Query:** "Which foods contain probiotics?"  
+**Expected:** Masala Dosa (fermented), Raita (yogurt-based)
+
+### 7. Regional Food Query
+**Query:** "What are popular foods from Punjab?"  
+**Expected:** Naan, Tandoori Chicken, Paneer Butter Masala, Lassi
+
+### 8. Dessert Query
+**Query:** "Tell me about Indian desserts"  
+**Expected:** Rasgulla, Gulab Jamun with descriptions
+
+### 9. Street Food Query
+**Query:** "What street foods are popular in Mumbai?"  
+**Expected:** Pav Bhaji with its history and preparation
+
+### 10. Ingredient-Based Query
+**Query:** "What dishes use chickpeas?"  
+**Expected:** Chole, Hummus, Falafel
+
+---
+
+## 📸 Screenshots
+
+*(Add your screenshots here showing the RAG system in action)*
+
+1. System startup and document loading
+2. Sample query about biryani
+3. Nutritional query response
+4. Vegan options search
+
+---
+
+## 🎓 Personal Learning Reflection
+
+Working on this RAG (Retrieval-Augmented Generation) project has been an incredibly knowledgable journey into the world of AI-powered applications. Before this project, I understood LLMs conceptually, but building a complete RAG system from scratch gave me hands-on experience with the entire pipeline.
+
+**Key Learnings:**
+
+1. **Vector Embeddings:** I learned how text is converted into numerical vectors that capture semantic meaning. The concept that similar meanings cluster together in vector space was fascinating to see in action.
+
+2. **Semantic Search:** Unlike keyword matching, semantic search understands intent. When I queried "foods that are good for health," the system found relevant results even without the exact word "healthy."
+
+3. **Cloud Architecture:** Migrating from local ChromaDB and Ollama to Upstash Vector and Groq taught me about serverless architectures. The benefits of not managing infrastructure while gaining speed improvements were significant.
+
+4. **Prompt Engineering:** Crafting the right prompts for the LLM to use retrieved context effectively required experimentation and iteration.
+
+5. **Data Quality Matters:** Enhancing food descriptions with detailed information dramatically improved response quality.
+
+This project reinforced that AI is a tool that augments human capabilities. The "retrieval" in RAG ensures responses are grounded in actual data, reducing hallucinations. I'm excited to apply these concepts to larger datasets and more complex use cases.
 
 ---
 

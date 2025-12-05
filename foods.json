@@ -1,93 +1,138 @@
 [
   {
     "id": "1",
-    "text": "A banana is a yellow fruit that is soft and sweet.",
+    "text": "Banana is a tropical fruit with a bright yellow peel when ripe, known for its soft, creamy texture and naturally sweet flavor. It is an excellent source of potassium, vitamin B6, and dietary fiber, making it a perfect pre or post-workout snack. Bananas can be eaten fresh, blended into smoothies, sliced over cereal, or used in baking for moist banana bread. They are one of the most widely consumed fruits globally and are available year-round.",
     "region": "Tropical",
-    "type": "Fruit"
+    "type": "Fruit",
+    "dietary": ["Vegan", "Gluten-Free", "Dairy-Free"],
+    "nutritional_highlights": "High in potassium, vitamin B6, fiber, natural sugars for energy",
+    "preparation": "Eaten raw, blended, baked, or frozen for smoothies"
   },
   {
     "id": "2",
-    "text": "A lemon is yellow and very sour.",
-    "region": "Tropical",
-    "type": "Fruit"
+    "text": "Lemon is a citrus fruit known for its bright yellow color and intensely sour, tangy flavor due to its high citric acid content. It is an excellent source of vitamin C, antioxidants, and flavonoids that support immune health and digestion. Lemons are used in cooking, baking, beverages like lemonade, and as a natural cleaning agent. The zest adds aromatic flavor to dishes, while the juice is used in dressings, marinades, and desserts.",
+    "region": "Mediterranean, Tropical",
+    "type": "Fruit",
+    "dietary": ["Vegan", "Gluten-Free", "Dairy-Free", "Keto-Friendly"],
+    "nutritional_highlights": "Very high in vitamin C, citric acid, antioxidants, low calories",
+    "preparation": "Juiced, zested, sliced for garnish, used in marinades and dressings"
   },
   {
     "id": "3",
-    "text": "A chili pepper is red and extremely spicy.",
-    "region": "Various",
-    "type": "Spice"
+    "text": "Chili pepper is a spicy fruit from the Capsicum genus, known for its fiery heat caused by capsaicin. Available in varieties from mild jalapeño to extremely hot ghost peppers, chilies are used worldwide to add heat and depth to dishes. They contain vitamin C, vitamin A, and capsaicin which may boost metabolism and reduce inflammation. Chilies can be used fresh, dried, powdered, or fermented into hot sauces.",
+    "region": "Mexico, South America, Asia",
+    "type": "Spice",
+    "dietary": ["Vegan", "Gluten-Free", "Keto-Friendly"],
+    "nutritional_highlights": "High in vitamin C, vitamin A, capsaicin for metabolism boost",
+    "preparation": "Fresh in salsas, dried and ground, pickled, or made into hot sauce"
   },
   {
     "id": "4",
-    "text": "An apple can be red, green, or yellow and has a sweet taste.",
-    "region": "Global",
-    "type": "Fruit"
+    "text": "Apple is one of the world's most popular fruits, available in varieties ranging from sweet Fuji to tart Granny Smith. Apples are rich in dietary fiber, vitamin C, and polyphenol antioxidants that support heart health and gut bacteria. The saying 'an apple a day keeps the doctor away' reflects its health benefits. Apples can be eaten raw, baked into pies, made into cider or sauce, or sliced with nut butter for a healthy snack.",
+    "region": "Global, originated Central Asia",
+    "type": "Fruit",
+    "dietary": ["Vegan", "Gluten-Free", "Dairy-Free"],
+    "nutritional_highlights": "High in fiber, vitamin C, antioxidants, supports heart health",
+    "preparation": "Eaten raw, baked, juiced, made into cider, sauce, or pie"
   },
   {
     "id": "5",
-    "text": "Biryani is a flavorful Indian rice dish made with spices, rice, and usually meat or vegetables.",
-    "region": "Hyderabad",
-    "type": "Main Course"
+    "text": "Biryani is a legendary aromatic rice dish from the Indian subcontinent, featuring basmati rice layered with marinated meat (chicken, lamb, or goat) or vegetables, slow-cooked with saffron, ghee, and a complex blend of spices including cardamom, cinnamon, bay leaves, and star anise. The dish is traditionally sealed with dough (dum cooking) to trap steam and infuse flavors. Each region has its signature style - Hyderabadi biryani is known for its spiciness, Lucknowi for its subtle flavors, and Kolkata biryani includes potatoes. It's often served with raita and mirchi ka salan.",
+    "region": "Hyderabad, Lucknow, India",
+    "type": "Main Course",
+    "dietary": ["Gluten-Free", "Contains Dairy"],
+    "nutritional_highlights": "High in protein, carbohydrates, contains healthy spices with anti-inflammatory properties",
+    "preparation": "Layered rice and meat slow-cooked in sealed pot (dum style), 2-3 hours"
   },
   {
     "id": "6",
-    "text": "Samosa is a fried or baked pastry with a spicy potato filling, popular as a snack in India.",
-    "region": "North India",
-    "type": "Snack"
+    "text": "Samosa is an iconic triangular fried or baked pastry originating from the Indian subcontinent, featuring a crispy golden outer shell made from maida flour filled with spiced mashed potatoes, green peas, and aromatic spices like cumin, coriander, and garam masala. Some variations include minced meat (keema samosa). The pastry is deep-fried until golden and crispy, then served hot with mint chutney and tamarind sauce. Samosas are popular street food, tea-time snacks, and party appetizers across South Asia, Middle East, and Africa.",
+    "region": "North India, originated Middle East",
+    "type": "Snack",
+    "dietary": ["Vegetarian (potato version)", "Contains Gluten"],
+    "nutritional_highlights": "Good source of carbohydrates, potassium from potatoes, protein in meat versions",
+    "preparation": "Dough wrapped around spiced filling, deep-fried until golden, 15-20 minutes"
   },
   {
     "id": "7",
-    "text": "Paneer butter masala is a creamy tomato-based curry made with Indian cottage cheese.",
-    "region": "Punjab",
-    "type": "Main Course"
+    "text": "Paneer Butter Masala (also called Paneer Makhani) is a rich, creamy North Indian curry featuring cubes of fresh paneer (Indian cottage cheese) simmered in a velvety tomato-based gravy with butter, cream, and aromatic spices. The sauce is made by blending roasted tomatoes, cashews, and spices like garam masala, kasuri methi, and cardamom. This vegetarian dish is a restaurant favorite worldwide, known for its mild heat and indulgent texture. It's best served with naan, roti, or jeera rice.",
+    "region": "Punjab, North India",
+    "type": "Main Course",
+    "dietary": ["Vegetarian", "Gluten-Free", "High Protein"],
+    "nutritional_highlights": "High in protein and calcium from paneer, healthy fats, lycopene from tomatoes",
+    "preparation": "Paneer cubes cooked in creamy tomato gravy with butter and spices, 30 minutes"
   },
   {
     "id": "8",
-    "text": "Masala dosa is a thin, crispy fermented crepe filled with spicy mashed potatoes.",
-    "region": "South India",
-    "type": "Breakfast"
+    "text": "Masala Dosa is a beloved South Indian breakfast consisting of a large, thin, crispy crepe made from fermented rice and urad dal batter, filled with spiced mashed potato (aloo masala) seasoned with mustard seeds, curry leaves, turmeric, and green chilies. The fermentation process gives the dosa its distinctive tangy flavor and makes it easier to digest while adding probiotics. Served with coconut chutney and sambar (lentil vegetable stew), masala dosa is a complete, nutritious meal that's naturally gluten-free and vegan.",
+    "region": "Karnataka, South India",
+    "type": "Breakfast",
+    "dietary": ["Vegan", "Gluten-Free", "Probiotic"],
+    "nutritional_highlights": "Fermented food with probiotics, good protein from lentils, complex carbohydrates",
+    "preparation": "Fermented batter spread thin on griddle, filled with potato masala, served with chutney"
   },
   {
     "id": "9",
-    "text": "Chole is a spicy chickpea curry from North India, often eaten with rice or bhature.",
-    "region": "North India",
-    "type": "Main Course"
+    "text": "Chole (Chana Masala) is a hearty North Indian chickpea curry cooked in a spiced onion-tomato gravy with a signature dark color from tea leaves or black cardamom. The dish features tender chickpeas simmered with chole masala (a special spice blend), ginger, garlic, and aromatics until rich and flavorful. Chole is traditionally paired with bhature (deep-fried bread) as Chole Bhature, or served with rice, roti, or kulcha. It's a protein-rich vegetarian staple that's popular for breakfast and lunch across North India.",
+    "region": "Punjab, North India",
+    "type": "Main Course",
+    "dietary": ["Vegan", "Gluten-Free", "High Protein", "High Fiber"],
+    "nutritional_highlights": "Excellent plant protein, high fiber, iron, folate, and complex carbohydrates",
+    "preparation": "Chickpeas pressure-cooked then simmered in spiced tomato gravy, 45 minutes"
   },
   {
     "id": "10",
-    "text": "Rasgulla is a spongy dessert made from ball-shaped dumplings of chhena cooked in light syrup.",
-    "region": "Bengal",
-    "type": "Dessert"
+    "text": "Rasgulla is a beloved Bengali dessert consisting of soft, spongy balls made from fresh chhena (Indian cottage cheese) and semolina, cooked in light sugar syrup flavored with cardamom and rose water. The balls are incredibly light and absorb the sweet syrup, creating a melt-in-your-mouth texture. Originating from Odisha and Bengal, rasgulla is served chilled as a refreshing dessert, especially during festivals like Durga Puja. The key to perfect rasgulla is properly kneading the chhena until smooth and cooking in syrup until doubled in size.",
+    "region": "Bengal, Odisha, India",
+    "type": "Dessert",
+    "dietary": ["Vegetarian", "Gluten-Free option available"],
+    "nutritional_highlights": "Good source of calcium and protein from chhena, moderate sugar content",
+    "preparation": "Chhena balls boiled in sugar syrup for 15-20 minutes until spongy and doubled"
   },
   {
     "id": "11",
-    "text": "Naan is a soft and fluffy flatbread that is traditionally baked in a tandoor.",
-    "region": "North India",
-    "type": "Bread"
+    "text": "Naan is a soft, fluffy, and slightly chewy leavened flatbread that is a staple of Indian cuisine. Made from white flour, yogurt, yeast, and sometimes milk, the dough is traditionally slapped onto the walls of a super-hot tandoor (clay oven) where it puffs up and develops characteristic charred spots. Popular variations include garlic naan, butter naan, keema naan (stuffed with spiced meat), and cheese naan. Naan is the perfect accompaniment to curries, as its soft texture is ideal for scooping up rich gravies.",
+    "region": "Punjab, North India, Central Asia",
+    "type": "Bread",
+    "dietary": ["Vegetarian", "Contains Gluten", "Contains Dairy"],
+    "nutritional_highlights": "Good source of carbohydrates, protein from yogurt, B vitamins from flour",
+    "preparation": "Leavened dough baked in tandoor at high heat, 2-3 minutes per bread"
   },
   {
     "id": "12",
-    "text": "Tandoori chicken is chicken marinated in yogurt and spices, roasted in a tandoor.",
-    "region": "Punjab",
-    "type": "Main Course"
+    "text": "Tandoori Chicken is an iconic Punjabi dish featuring chicken pieces marinated in a mixture of yogurt, lemon juice, and a vibrant blend of spices including Kashmiri red chili (for color), garam masala, cumin, coriander, and ginger-garlic paste. The marinated chicken is traditionally cooked in a tandoor (clay oven) at extremely high temperatures, resulting in smoky, charred edges and juicy, flavorful meat. The dish gets its distinctive red-orange color from Kashmiri chili and sometimes food coloring. Served with mint chutney, onion rings, and lemon wedges.",
+    "region": "Punjab, India",
+    "type": "Main Course",
+    "dietary": ["Gluten-Free", "High Protein", "Low Carb", "Keto-Friendly"],
+    "nutritional_highlights": "Very high in lean protein, probiotics from yogurt marinade, low in carbs",
+    "preparation": "Chicken marinated 4-24 hours, then grilled in tandoor or oven at high heat"
   },
   {
     "id": "13",
-    "text": "Gulab jamun is a deep-fried milk-solid ball soaked in sweet syrup, served as dessert.",
-    "region": "India",
-    "type": "Dessert"
+    "text": "Gulab Jamun is one of India's most beloved desserts, consisting of soft, golden-brown balls made from khoya (reduced milk solids) and a touch of flour, deep-fried until perfectly round, then soaked in warm rose-flavored sugar syrup (gulab means rose, jamun refers to a berry it resembles). The balls are incredibly soft and syrupy, melting in the mouth with each bite. Often garnished with chopped pistachios and served warm, gulab jamun is a must-have at weddings, festivals like Diwali, and celebrations throughout South Asia.",
+    "region": "India, Pakistan, Nepal",
+    "type": "Dessert",
+    "dietary": ["Vegetarian", "Contains Gluten", "Contains Dairy"],
+    "nutritional_highlights": "High in calcium from milk solids, moderate protein, energy-dense treat",
+    "preparation": "Khoya balls deep-fried golden, soaked in cardamom-rose sugar syrup"
   },
   {
     "id": "14",
-    "text": "Pav bhaji is a spicy vegetable mash served with soft buttered buns.",
-    "region": "Mumbai",
-    "type": "Snack"
+    "text": "Pav Bhaji is a popular Mumbai street food consisting of a thick, spicy vegetable mash (bhaji) made from potatoes, tomatoes, peas, bell peppers, and other vegetables, cooked with generous amounts of butter and a special pav bhaji masala spice blend. The bhaji is served with soft, buttered bread rolls (pav) that are toasted on a griddle until crispy on the outside. Garnished with raw onions, cilantro, lemon wedge, and extra butter, this dish originated in the textile mills of Mumbai as a quick, filling meal for workers.",
+    "region": "Mumbai, Maharashtra, India",
+    "type": "Snack",
+    "dietary": ["Vegetarian", "Can be made Vegan"],
+    "nutritional_highlights": "Rich in vegetables, vitamins, fiber, carbohydrates for energy",
+    "preparation": "Mixed vegetables mashed and cooked with butter and spices, served with toasted rolls"
   },
   {
     "id": "15",
-    "text": "Raita is a yogurt-based condiment that cools down spicy dishes.",
-    "region": "India",
-    "type": "Condiment"
+    "text": "Raita is a cooling yogurt-based condiment essential to Indian cuisine, designed to balance the heat of spicy dishes. Made by whisking fresh yogurt with additions like cucumber (boondi raita), onion, tomato, mint, or boondi (fried gram flour balls), and seasoned with roasted cumin, salt, and sometimes chaat masala. Raita aids digestion due to its probiotic content and provides a refreshing contrast to rich curries and biryanis. It's an excellent source of protein, calcium, and beneficial gut bacteria.",
+    "region": "India, Pakistan",
+    "type": "Condiment",
+    "dietary": ["Vegetarian", "Gluten-Free", "Probiotic"],
+    "nutritional_highlights": "High in probiotics, calcium, protein, aids digestion, cooling effect",
+    "preparation": "Whisked yogurt mixed with vegetables and spices, served chilled"
   },
   {
     "id": "16",
